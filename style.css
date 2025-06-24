@@ -44,21 +44,26 @@ nav {
 /* Hero Section */
 .hero {
     background-image: url(https://img.freepik.com/fotos-gratis/marmelada-de-espaco-de-copia-de-vista-superior-sob-a-forma-de-uma-amora-com-fatias-de-kiwi-em-um-fundo-roxo_141793-11640.jpg?semt=ais_hybrid&w=740);
-    min-height: 100svh;
+    min-height: 5svh;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     color: hsl(323, 84%, 26%);
-    padding-top: 60px;
+    padding-top: 100px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+   
+    
 }
+
 
 .hero-content h1 {
     font-size: 4rem;
     margin-bottom: 1rem;
+    
+    
 }
 
 .hero-content p {
@@ -160,7 +165,7 @@ nav {
 
 /* Footer */
 footer {
-    background-color: #2d3748;
+    background-color: #2d3548;
     color: white;
     padding: 2rem 1rem;
 }
@@ -172,11 +177,19 @@ footer {
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 2rem;
+    
+    
 }
 
 .footer-section {
     flex: 1;
     min-width: 250px;
+}
+#ema {
+    color: aliceblue;
+}
+#tel {
+    color: aliceblue;
 }
 
 .footer-section h3 {
@@ -214,6 +227,7 @@ footer {
 
     .hero-content p {
         font-size: 1.5rem;
+        
     }
 }
 
